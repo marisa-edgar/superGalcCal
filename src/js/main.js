@@ -16,5 +16,6 @@ export default class User{
     this.leftVenus= this.exVenus - this.venus;
     this.leftMars= this.exMars - this.mars;
     this.leftJupiter= this.exJupiter - this.jupiter;
+    this.overAge= this.age - this.expectancy;
   } 
 }
