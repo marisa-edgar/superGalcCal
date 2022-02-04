@@ -127,3 +127,10 @@ describe('User',()=>{
     expect(user2.overMars).toEqual(4);
   });
 });
+
+describe('User',()=>{
+  test('should correctly return years over life expectancy on jupiter', () =>{
+    const user2 =new User("Ester",80)
+    expect(user2.overJupiter).toEqual(4);
+  });
+});
