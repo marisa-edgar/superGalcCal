@@ -92,3 +92,10 @@ describe('User',()=>{
     expect(user1.leftMars).toEqual(25);
   });
 });
+
+describe('User',()=>{
+  test('should correctly return years left on jupiter', () =>{
+    const user1 = new User("bob", 25);
+    expect(user1.leftJupiter).toEqual(4);
+  });
+});
