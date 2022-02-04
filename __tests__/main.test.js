@@ -8,27 +8,33 @@ describe('User',()=>{
   });
 });
 describe('User',()=>{
-  test('should correctly return life expectancy on mercury', () =>{
+  test('should correctly return age on mercury', () =>{
     const user1 = new User("bob", 25);
     expect(user1.mercury).toEqual(104);
   });
 });
 describe('User',()=>{
-  test('should correctly return life expectancy on venus', () =>{
+  test('should correctly return age on venus', () =>{
     const user1 = new User("bob", 25);
     expect(user1.venus).toEqual(40);
   });
 });
 describe('User',()=>{
-  test('should correctly return life expectancy on mars', () =>{
+  test('should correctly return age on mars', () =>{
     const user1 = new User("bob", 25);
     expect(user1.mars).toEqual(13);
   });
 });
 describe('User',()=>{
-  test('should correctly return life expectancy on jupiter', () =>{
+  test('should correctly return age on jupiter', () =>{
     const user1 = new User("bob", 25);
     expect(user1.jupiter).toEqual(2);
+  });
+});
+describe('User',()=>{
+  test('should correctly return life expectancy', () =>{
+    const user1 = new User("bob", 25);
+    expect(user1.expectancy).toEqual(72);
   });
 });
 
