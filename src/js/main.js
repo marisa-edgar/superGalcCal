@@ -11,5 +11,6 @@ export default class User{
     this.exMercury = Math.floor(this.expectancy/.24);
     this.exVenus = Math.floor(this.expectancy/.62);
     this.exMars = Math.floor(this.expectancy/1.88);
+    this.exJupiter = Math.floor(this.expectancy/11.86);
   }
 }
