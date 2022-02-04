@@ -10,5 +10,6 @@ export default class User{
     this.yearsLeft = this.expectancy -this.age;
     this.exMercury = Math.floor(this.expectancy/.24);
     this.exVenus = Math.floor(this.expectancy/.62);
+    this.exMars = Math.floor(this.expectancy/1.88);
   }
 }
