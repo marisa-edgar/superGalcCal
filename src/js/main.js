@@ -3,5 +3,6 @@ export default class User{
     this.name =name;
     this.age = age;
     this.mercury = this.age/.24;
+  
   }
 }
