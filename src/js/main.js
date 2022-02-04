@@ -19,6 +19,6 @@ export default class User{
     this.overAge = this.age - this.expectancy;
     this.overMercury = Math.floor(this.overAge/.24);
     this.overVenus= Math.floor(this.overAge/.62);
-    
+    this.overMars= Math.floor(this.overAge/1.88);
   } 
 }
