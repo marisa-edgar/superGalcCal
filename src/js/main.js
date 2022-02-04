@@ -20,5 +20,6 @@ export default class User{
     this.overMercury = Math.floor(this.overAge/.24);
     this.overVenus= Math.floor(this.overAge/.62);
     this.overMars= Math.floor(this.overAge/1.88);
+    this.overJupiter= this.overAge/11.86;
   } 
 }
