@@ -22,6 +22,6 @@ describe('User',()=>{
 describe('User',()=>{
   test('should correctly return life expectancy on mars', () =>{
     const user1 = new User("bob", 25);
-    expect(user1.mars).toEqual(47);
+    expect(user1.mars).toEqual(13.297872340425533);
   });
 });
