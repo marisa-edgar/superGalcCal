@@ -1,4 +1,4 @@
-import  User  from './../src/main.js';
+import  User  from './../src/js/main.js';
 
 describe('User',()=>{
   test('should correctly create an object for user', () =>{
