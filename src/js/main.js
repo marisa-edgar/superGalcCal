@@ -1,10 +1,10 @@
 export default class User{
   constructor(name, age) {
-    this.name =name;
+    this.name = name;
     this.age = age;
-    this.mercury = this.age/.24;
-    this.venus= this.age/.62;
-    this.mars= this.age/1.88;
-    this.jupiter= this.age/11.86;
+    this.mercury = Math.floor(this.age/.24);
+    this.venus = Math.floor(this.age/.62);
+    this.mars = Math.floor(this.age/1.88);
+    this.jupiter = Math.floor(this.age/11.86);
   }
 }
