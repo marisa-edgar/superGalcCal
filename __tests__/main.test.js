@@ -19,3 +19,9 @@ describe('User',()=>{
     expect(user1.venus).toEqual(40.32258064516129);
   });
 });
+describe('User',()=>{
+  test('should correctly return life expectancy on mars', () =>{
+    const user1 = new User("bob", 25);
+    expect(user1.mars).toEqual(47);
+  });
+});
