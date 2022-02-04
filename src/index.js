@@ -9,5 +9,12 @@ $("form#formOne").submit(function(event) {
   event.preventDefault();
   let name = $("#name").val();
   let age = parseInt($("#age").val());
+  let lifeExpectancy = 72;
   let planet = $("input:radio[name=planet]:checked").val();
 }
+if(planet === "earth") {
+  $("#formOne").hide();
+  $("results").fadeIn();
+  if (age >= lifeExpectancy) {
+    return 
+  }
