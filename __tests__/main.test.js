@@ -71,3 +71,10 @@ describe('User',()=>{
     expect(user1.exJupiter).toEqual(6);
   });
 });
+
+describe('User',()=>{
+  test('should correctly return years left on mercury', () =>{
+    const user1 = new User("bob", 25);
+    expect(user1.leftMercury).toEqual(196);
+  });
+});
