@@ -6,8 +6,9 @@ export default class User{
     this.venus = Math.floor(this.age/.62);
     this.mars = Math.floor(this.age/1.88);
     this.jupiter = Math.floor(this.age/11.86);
-    this.expectancy= 72;
-    this.yearsLeft= this.expectancy -this.age;
-    this.exMercury= Math.floor(this.expectancy/.24);
+    this.expectancy = 72;
+    this.yearsLeft = this.expectancy -this.age;
+    this.exMercury = Math.floor(this.expectancy/.24);
+    
   }
 }
