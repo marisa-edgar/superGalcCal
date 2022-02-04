@@ -15,6 +15,6 @@ export default class User{
     this.leftMercury= this.exMercury - this.mercury;
     this.leftVenus= this.exVenus - this.venus;
     this.leftMars= this.exMars - this.mars;
-    
+    this.leftJupiter= this.exJupiter - this.jupiter;
   } 
 }
