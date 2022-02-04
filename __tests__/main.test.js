@@ -103,6 +103,6 @@ describe('User',()=>{
 describe('User',()=>{
   test('should correctly return years over life expectancy on earth', () =>{
     const user2 =new User("Ester",80)
-    expect(user2.overAge).toEqual(6);
+    expect(user2.overAge).toEqual(8);
   });
 });
