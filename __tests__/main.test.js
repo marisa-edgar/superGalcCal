@@ -28,6 +28,6 @@ describe('User',()=>{
 describe('User',()=>{
   test('should correctly return life expectancy on jupiter', () =>{
     const user1 = new User("bob", 25);
-    expect(user1.jupiter).toEqual(2.10079258);
+    expect(user1.jupiter).toEqual(2.1079258010118043);
   });
 });
