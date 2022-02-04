@@ -7,3 +7,9 @@ describe('User',()=>{
     expect(user1.age).toEqual(25);
   });
 });
+describe('User',()=>{
+  test('should correctly return life expectancy on mercury', () =>{
+    const user1 = new User("bob", 25);
+    expect(user1.mercury).toEqual("104.166667");
+  });
+});
