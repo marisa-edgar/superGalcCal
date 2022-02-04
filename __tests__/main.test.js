@@ -37,4 +37,10 @@ describe('User',()=>{
     expect(user1.expectancy).toEqual(72);
   });
 });
+describe('User',()=>{
+  test('should correctly return years left on earth', () =>{
+    const user1 = new User("bob", 25);
+    expect(user1.yearsLeft).toEqual(47);
+  });
+});
 
