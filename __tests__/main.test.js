@@ -106,3 +106,10 @@ describe('User',()=>{
     expect(user2.overAge).toEqual(8);
   });
 });
+
+describe('User',()=>{
+  test('should correctly return years over life expectancy on mercury', () =>{
+    const user2 =new User("Ester",80)
+    expect(user2.overMercury).toEqual(8);
+  });
+});
