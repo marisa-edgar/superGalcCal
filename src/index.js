@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
@@ -11,10 +12,5 @@ $("form#formOne").submit(function(event) {
   let age = parseInt($("#age").val());
   let lifeExpectancy = 72;
   let planet = $("input:radio[name=planet]:checked").val();
-}
-if(planet === "earth") {
-  $("#formOne").hide();
-  $("results").fadeIn();
-  if (age >= lifeExpectancy) {
-    return 
-  }
+});
+

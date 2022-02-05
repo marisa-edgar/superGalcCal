@@ -22,4 +22,23 @@ export default class User{
     this.overMars= Math.floor(this.overAge/1.88);
     this.overJupiter= this.overAge/11.86;
   } 
+  mercuryAge(){
+    return this.age/.24
+  }
+  venusAge(){
+    return this.age/.62
+  }
+  marsAge(){
+    return this.age/1.88
+  }
+  jupiterAge(){
+    return this.age/11.86
+  }
+  yearsPastExpectancy(){
+    if (this.age < this.expectancy){
+      return this.expectancy -this.age;
+    } else{
+      return this.age -this.expectancy
+    }
+  }
 }
