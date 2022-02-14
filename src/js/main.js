@@ -32,12 +32,12 @@ export default class User{
     return Math.floor(this.age/1.88);
   }
   jupiterAge(){
-  //   return this.age/11.86
+    return Math.floor(this.age/11.86);
   }
-  // yearsPastExpectancy(){
+  yearsPastExpectancy(){
   //   if (this.age < this.expectancy){
   //     return this.expectancy -this.age;
   //   } else{
   //     return this.age -this.expectancy
-  //   }
+    }
 }
