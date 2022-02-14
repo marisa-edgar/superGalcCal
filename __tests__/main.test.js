@@ -164,6 +164,13 @@ describe('User#jupiterAge', ()=>{
 });
 
 describe('User#yearsPastExpectancy', ()=>{
+  test('should correctly return users years until expectancy', () =>{
+    const user1 = new User("bob", 25);
+    expect(user1.yearsPastExpectancy()).toEqual(47);
+  });
+});
+
+describe('User#yearsPastExpectancy', ()=>{
   test('should correctly return users years past expectancy', () =>{
     const user1 = new User("ester", 80);
     expect(user1.yearsPastExpectancy()).toEqual(8);
