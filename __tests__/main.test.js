@@ -145,6 +145,13 @@ describe('User#mercuryAge', ()=>{
 describe('User#venusAge', ()=>{
   test('should correctly return age on venus', () =>{
     const user1 = new User("bob", 25);
-    expect(user1.venusAge()).toEqual(104);
+    expect(user1.venusAge()).toEqual(40);
+  });
+});
+
+describe('User#marsAge', ()=>{
+  test('should correctly return age on mars', () =>{
+    const user1 = new User("bob", 25);
+    expect(user1.marsAge()).toEqual(40);
   });
 });
