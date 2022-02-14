@@ -25,9 +25,9 @@ export default class User{
   mercuryAge(){
     return Math.floor(this.age/.24);
   }
-  // venusAge(){
-  //   return this.age/.62
-  // }
+  venusAge(){
+    // return this.age/.62
+  }
   // marsAge(){
   //   return this.age/1.88
   // }

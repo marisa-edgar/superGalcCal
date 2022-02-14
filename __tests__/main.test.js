@@ -135,9 +135,16 @@ describe('User',()=>{
   });
 });
 
-describe('User#mecuryAge', ()=>{
+describe('User#mercuryAge', ()=>{
   test('should correctly return age on mercury', () =>{
     const user1 = new User("bob", 25);
     expect(user1.mercuryAge()).toEqual(104);
+  });
+});
+
+describe('User#venusAge', ()=>{
+  test('should correctly return age on venus', () =>{
+    const user1 = new User("bob", 25);
+    expect(user1.venusAge()).toEqual(104);
   });
 });
