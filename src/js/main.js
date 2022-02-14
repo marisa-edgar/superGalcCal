@@ -35,9 +35,10 @@ export default class User{
     return Math.floor(this.age/11.86);
   }
   yearsPastExpectancy(){
-  //   if (this.age < this.expectancy){
-  //     return this.expectancy -this.age;
-  //   } else{
-  //     return this.age -this.expectancy
+    if (this.age < this.expectancy){
+      return this.expectancy -this.age;
+    } else{
+      return this.age -this.expectancy
     }
+  }
 }
