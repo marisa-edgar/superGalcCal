@@ -134,3 +134,10 @@ describe('User',()=>{
     expect(user2.overJupiter).toEqual(0.6745362563237775);
   });
 });
+
+describe('User#mecuryAge', ()=>{
+  test('should correctly return age on mercury', () =>{
+    const user1 = new User("bob", 25);
+    expect(user1.mercuryAge()).toEqual(104);
+  });
+});
