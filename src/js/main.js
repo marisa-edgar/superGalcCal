@@ -29,7 +29,7 @@ export default class User{
     return Math.floor(this.age/.62);
   }
   marsAge(){
-  //   return this.age/1.88
+    return Math.floor(this.age/1.88);
   }
   // jupiterAge(){
   //   return this.age/11.86

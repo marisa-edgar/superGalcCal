@@ -152,6 +152,6 @@ describe('User#venusAge', ()=>{
 describe('User#marsAge', ()=>{
   test('should correctly return age on mars', () =>{
     const user1 = new User("bob", 25);
-    expect(user1.marsAge()).toEqual(40);
+    expect(user1.marsAge()).toEqual(13);
   });
 });
