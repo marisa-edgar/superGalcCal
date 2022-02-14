@@ -31,9 +31,9 @@ export default class User{
   marsAge(){
     return Math.floor(this.age/1.88);
   }
-  // jupiterAge(){
+  jupiterAge(){
   //   return this.age/11.86
-  // }
+  }
   // yearsPastExpectancy(){
   //   if (this.age < this.expectancy){
   //     return this.expectancy -this.age;

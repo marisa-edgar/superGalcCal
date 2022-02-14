@@ -155,3 +155,10 @@ describe('User#marsAge', ()=>{
     expect(user1.marsAge()).toEqual(13);
   });
 });
+
+describe('User#jupiterAge', ()=>{
+  test('should correctly return age on jupiter', () =>{
+    const user1 = new User("bob", 25);
+    expect(user1.jupiterAge()).toEqual(13);
+  });
+});
